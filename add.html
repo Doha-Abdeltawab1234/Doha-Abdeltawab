@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>img{max-width: 100%;height: auto;}</style>
+    <title>Add Course</title>
+    <link rel="stylesheet" href="style/add.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a class="ch" href="index.html">Home</a>
+            <a href="courses.html">My Courses</a>
+            <a href="add.html">Add Course</a>
+            <a href="contact.html">Contact Us</a>
+
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Add New Course</h1>
+            <form method="post">
+                <label class="test" for="course">Course:</label>
+                <input class="test2" type="text" id="course" name="course name" required placeholder="course name">
+                <br>
+                <label class="test" for="Instructor">Instructor:</label>
+                <input class="test2" type="text" name="Instructor" id="Instructor" required placeholder="Instructor">
+                <br>
+                <label class="test" for="hour">Credit Hours:</label>
+                <input class="test2" type="number" name="Credit Hours" id="hour" required placeholder="Credit Hours">
+                <br>
+                <label class="test" for="area">Notes:</label>
+                <textarea #id="step" class="test2" name="Notes" id="area" rows="5" cols="10"></textarea>
+                <br>
+                <input class="test3" type="submit" value="Add">
+            </form>
+        </section>
+    </main>
+    <footer>
+        @ 2026 Personal courses Organized By Doha .
+    </footer>
+    
+</body>
+</html>
